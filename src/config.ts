@@ -4,13 +4,13 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'Retypeset',
+    title: '心隅',
     // site subtitle
     subtitle: '照见五蕴皆空，度一切苦厄',
     // site description
     description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
-    i18nTitle: true, // true | false
+    i18nTitle: false, // true | false
     // author name
     author: '冯翊',
     // site url
@@ -78,7 +78,7 @@ export const themeConfig: ThemeConfig = {
   // COMMENT SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   comment: {
     // enable comment system
-    enabled: true, // true | false
+    enabled: false, // true | false
     // giscus
     // https://giscus.app/
     giscus: {
@@ -94,26 +94,26 @@ export const themeConfig: ThemeConfig = {
     },
     // twikoo
     // https://twikoo.js.org/
-    twikoo: {
-      envId: '',
-      // version: frontend version can be changed in package.json
-    },
+    // twikoo: {
+    //   envId: '',
+    //   // version: frontend version can be changed in package.json
+    // },
     // waline
     // https://waline.js.org/en/
-    waline: {
-      // server url
-      serverURL: 'https://retypeset-comment.radishzz.cc',
-      // emoji url
-      emoji: [
-        'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
-        // 'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
-        // more emojis: https://waline.js.org/en/guide/features/emoji.html
-      ],
-      // gif search
-      search: false, // true | false
-      // image uploader
-      imageUploader: false, // true | false
-    },
+    // waline: {
+    //   // server url
+    //   serverURL: 'https://retypeset-comment.radishzz.cc',
+    //   // emoji url
+    //   emoji: [
+    //     'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+    //     // 'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
+    //     // more emojis: https://waline.js.org/en/guide/features/emoji.html
+    //   ],
+    //   // gif search
+    //   search: false, // true | false
+    //   // image uploader
+    //   imageUploader: false, // true | false
+    // },
   },
   // COMMENT SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
@@ -125,10 +125,10 @@ export const themeConfig: ThemeConfig = {
     verification: {
       // google search console
       // https://search.google.com/search-console
-      google: 'AUCrz5F1e5qbnmKKDXl2Sf8u6y0kOpEO1wLs6HMMmlM',
+      google: '',
       // bing webmaster tools
       // https://www.bing.com/webmasters
-      bing: '64708CD514011A7965C84DDE1D169F87',
+      bing: '',
       // yandex webmaster
       // https://webmaster.yandex.com
       yandex: '',
@@ -141,7 +141,7 @@ export const themeConfig: ThemeConfig = {
     googleAnalyticsID: '',
     // umami analytics
     // https://cloud.umami.is
-    umamiAnalyticsID: 'dab0e4b9-9cbf-43c3-af60-b09d3b545c38',
+    umamiAnalyticsID: '',
     // follow verification
     // https://follow.is/
     follow: {
@@ -171,11 +171,11 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'Email',
-        url: 'shing01.ylh@gmail.com',
+        url: 'mailto:shing01.ylh@gmail.com',
       },
       // {
       //   name: 'X',
-      //   url: 'https://x.com/radishzz_',
+      //   url: 'https://x.com/shing01_ylh',
       // },
     ],
     // year of website start
@@ -195,7 +195,7 @@ export const themeConfig: ThemeConfig = {
     // custom umami analytics js
     // for users who self-deploy umami or proxy tracking scripts to a custom domain
     // see https://umami.is/docs/bypass-ad-blockers
-    customUmamiAnalyticsJS: 'https://views.radishzz.cc/script.js',
+    customUmamiAnalyticsJS: '',
   },
   // PRELOAD SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 }
